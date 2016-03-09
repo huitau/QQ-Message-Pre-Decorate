@@ -1,0 +1,20 @@
+#pragma once
+
+
+
+// WM_KEYBOARD_HOOK_FIRST 中标记不需调用CallNextHookEx
+#define KHF_DONOT_CALLNEXTHOOKEX		0x00000001
+// WM_KEYBOARD_HOOK_FIRST 中标记需调用PostMessage来发送WM_KEYBOARD_HOOK_NEXT消息
+#define KHF_POSTNEXTMESSAGE		0x00000002
+
+#define WM_KEYBOARD_HOOK_FIRST			WM_USER + 1
+
+
+
+
+
+
+
+
+
+#define WM_KEYBOARD_HOOK_NEXT			WM_USER + 2

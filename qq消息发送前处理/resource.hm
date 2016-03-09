@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by qq消息发送前处理.rc
+//
+#define HIDC_EDIT_CONDITION_KEYWORD     0x808203f3    // IDD_DIALOG_MESSAGE_DECORATE_SETTING
